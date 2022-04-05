@@ -16,14 +16,14 @@ public class Question3 {
 
 public static void main(String[] args) {
 Hashtable<Integer,String> hm=new Hashtable<Integer,String>();
-hm.put(1, "fathima");
-hm.put(2, "atheena");
-hm.put(31,"noobi");
-hm.put(4,"arunima");
+hm.put(1, "marcus");
+hm.put(2, "cherry");
+hm.put(31,"revanth");
+hm.put(4,"ranjith");
 for(Map.Entry m:hm.entrySet()) {
 System.out.println(m.getKey()+" "+m.getValue());
 }
-hm.putIfAbsent(56, "jeenabai");
+hm.putIfAbsent(56, "rahul");
 System.out.println(hm);
 }
 
@@ -31,9 +31,9 @@ System.out.println(hm);
 
 }
 /*OUTPUT:
-31 noobi
-4 arunima
-2 atheena
-1 fathima
-{31=noobi, 4=arunima, 2=atheena, 56=jeenabai, 1=fathima}
+31 revanth
+4 ranjith
+2 cherry
+1 marcus
+{31=revanth, 4=ranjith, 2=cherry, 56=rahul, 1=marcus}
 */
