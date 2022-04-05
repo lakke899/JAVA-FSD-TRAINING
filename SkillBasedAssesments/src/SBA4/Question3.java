@@ -3,8 +3,6 @@ implement the putIfAbsent() method.
 */
 
 
-package SBA4;
-
 
 
 import java.util.Hashtable;
